@@ -15,7 +15,7 @@
 // قائمة الملفات في الموقع، أضف الملفات الجديدة هنا
 const files = [
   "math101.pdf",
-  "math202.pdf",
+  "math2024.pdf",
   "physics101.pdf"
 ];
 
@@ -31,7 +31,7 @@ function searchFiles() {
   } else {
     matchedFiles.forEach(file => {
       const link = document.createElement("a");
-      link.href = " "math202.pdf"" + file; // ضع مسار الملفات هنا
+      link.href = " "math2024.pdf"" + file; // ضع مسار الملفات هنا
       link.textContent = file;
       link.target = "_blank";
       resultsContainer.appendChild(link);
@@ -42,4 +42,5 @@ function searchFiles() {
 </script>
 </body>
 </html>
+
 
